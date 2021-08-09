@@ -98,10 +98,5 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn checkcommit && yarn format:check"
-    }
   }
 }
